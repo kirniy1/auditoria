@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoria Mini Calendar</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fffbeb;
+        }
+        .calendar-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fffbeb;
+        }
+        .calendar-header {
+            background-color: #f09b55;
+            color: #272525;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        #tockify-container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">Афиша Аудитории</div>
+        <div id="tockify-container">
+            <div data-tockify-component="mini" data-tockify-calendar="auditoria"></div>
+        </div>
+    </div>
+    <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+</body>
+</html>
